@@ -1,0 +1,71 @@
+html, body 
+{
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+	font-family: Astrolab;
+}
+
+
+nav.navbar div.container{
+  background-color:   #666666;
+
+
+}
+
+nav.navbar div.container-fluid{
+	background-color: red;
+
+ 
+}
+
+
+
+input[type='search']:focus{
+	border-color: blue;
+  box-shadow: 0 0 2px blue inset, 0 0 2px blue;
+  outline: 0 none;
+}
+div.fixed_header{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+div.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 450px;
+
+}
+div.fixed_header thead{
+  background: blue;
+  color: #ffffff;
+}
+
+div.fixed_header thead tr {
+   display: block;
+}
+
+
+div.fixed_header th {
+  text-align: left;
+  width: 3%;
+
+  
+}
+
+div.fixed_header td {
+ 
+  text-align: left;
+}
+
+div button #closemod {
+  position: absolute;
+  top: 750px;
+
+}
